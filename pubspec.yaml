@@ -1,0 +1,26 @@
+name: orax_tech_asgnmnt
+description: Flutter Developer Intern assignment - Listing + Detail with JSONPlaceholder
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  provider: ^6.0.5
+  google_fonts: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  # If you want to use local avatar images, drop them into assets/ and uncomment lines
+  # - assets/avatar1.png
+  # - assets/avatar2.png
